@@ -3,19 +3,18 @@ el resultado de su suma,su resta,su multiplicacion,el cociente de la division
 le resto de la division, la division entera entre ambas y el valor absoluto de ambos"""
 
 
-
 num_1=int(input("Ingrese el primer numero entero: "))
 num_2=int(input("Ingrese el segundo numero entero: "))
 
 
-suma=num_1+num_2
-resta=num_1-num_2
-multiplicacion=num_1*num_2
-cociente=num_1/num_2
-resto=num_1%num_2
-division_entera=num_1//num_2
-absoluto_1=abs(num_1)
-absoluto_2=abs(num_2)
+suma = num_1 + num_2
+resta = num_1 - num_2
+multiplicacion = num_1 * num_2
+cociente = num_1 / num_2
+resto = num_1 % num_2
+division_entera = num_1 // num_2
+absoluto_1 = abs(num_1)
+absoluto_2 = abs(num_2)
 
 
 print("La suma de los dos numeros es: ",suma)
