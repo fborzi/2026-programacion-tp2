@@ -16,9 +16,8 @@ va_a = 0
 va_b = 0
 a = int(input("Ingrese el primer numero: "))
 b = int(input("Ingrese el segundo numero: "))
-while b == 0 :
-    print("El segundo numero no puede ser 0, ingrese el valor nuevamente")
-    b = int(input("Ingrese el segundo numero: "))
+if b == 0:
+    print("Si el segundo numero es 0, la division no se realizara")
 suma = a + b
 resta = a - b
 mult = a * b
