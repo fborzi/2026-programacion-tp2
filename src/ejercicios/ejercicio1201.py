@@ -5,19 +5,22 @@ le resto de la division, la division entera entre ambas y el valor absoluto de a
 
 num_1=int(input("Ingrese el primer numero entero: "))
 num_2=int(input("Ingrese el segundo numero entero: "))
-
+suma= 0
+resta= 0
+multiplicacion= 0
+cociente= 0.0
+resto= 0.0
+division_entera= 0.0
 
 suma = num_1 + num_2
 resta = num_1 - num_2
 multiplicacion = num_1 * num_2
-if num_2 != 0:
+if num_2 != 0.0:
     cociente = num_1 / num_2
     resto = num_1 % num_2
     division_entera = num_1 // num_2
-else:
-    cociente = "No se puede dividir por cero" 
-    resto = "No se puede dividir por cero"
-    division_entera = "No se puede dividir por cero"
+else :
+    print("No se puede dividir por cero")
 absoluto_1 = abs(num_1)
 absoluto_2 = abs(num_2)
 
