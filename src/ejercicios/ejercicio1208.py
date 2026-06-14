@@ -2,10 +2,10 @@
 sion de Fibonacci"""
 
 
-a = 0
-b = 1
+a = 1
+b = 0
 suma = 0
-for i in range(24):
+for i in range(25):
     suma = suma + a
     a , b = b, a + b
     print(a)
