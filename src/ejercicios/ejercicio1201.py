@@ -16,20 +16,20 @@ absoluto_b = 0
 a = int(input("Ingrese numero: "))
 b = int(input("Ingrese numero: "))
 
-SUMA = a + b
-RESTA = a - b
-MULTIPLICACION = a * b
-DIVISION = a / b
-RESTO = a % b
-DIVISION_ENTERA = a // b
-ABSOLUTO_A = abs(a)
-ABSOLUTO_B = abs(b)
+suma = a + b
+resta = a - b
+multiplicacion = a * b
+division = a / b
+resto = a % b
+division_entera = a // b
+absoluta_a = abs(a)
+absoluta_b = abs(b)
 
-print("La suma de los dos numeros es: ", SUMA)
-print("La resta del primer numero menos el segundo es : ", RESTA)
-print("La multiplicacion de los dos numeros es: ", MULTIPLICACION)
-print("La division del primer numero entre el segundo es: ", DIVISION)
-print("El resto de la division del primer numero entre el segundo es: ", RESTO)
-print("La division entera del primer numero entre el segundo es: ", DIVISION_ENTERA)
-print("El valor absoluto del primer numero es: ", ABSOLUTO_A)
-print("El valor absoluto del segundo numero es: ", ABSOLUTO_B)
+print("La suma de los dos numeros es: ", suma)
+print("La resta del primer numero menos el segundo es : ", resta)
+print("La multiplicacion de los dos numeros es: ", multiplicacion)
+print("La division del primer numero entre el segundo es: ", division)
+print("El resto de la division del primer numero entre el segundo es: ", resto)
+print("La division entera del primer numero entre el segundo es: ", division_entera)
+print("El valor absoluto del primer numero es: ", absoluta_a)
+print("El valor absoluto del segundo numero es: ", absoluta_b)

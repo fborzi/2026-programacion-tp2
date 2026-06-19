@@ -1,3 +1,9 @@
+"""
+En este ejercicio vamos a ver si el numero que se ingresa
+es mayor o menor. Vamos a definir las variables, luego
+pedimos que se ingrese ambos numeros. En pantalla se mostrara
+si el numero es mayor, menor o igual.
+"""
 numero1 = 0
 numero2 = 0
 
