@@ -1,7 +1,7 @@
-"""Escribi un programa que solicite el ingreso del monto de cada venta realizada en una tienda
-durante la ultima semana. Luego, se debera mostrar el monto total de las ventas. Si se lee un
-monto negativo, se debe informar el problema sin interrumpir el ingreso de los datos. La
-lectura de la informacion finaliza al leer un monto igual a cero."""
+"""inicialice montode_venta en 1 para entrar al bucle y monto_total en cero para acumular las ventas.
+utilice un while para repetir el ingreso hasta que el usuario ingrese cero, si el monto es negativo
+aviso al usuario sin interrumpir el ingreso, si es positivo lo sumo al total. al finalizar imprimo
+el monto total de las ventas."""
 
 montode_venta = 1
 monto_total = 0
