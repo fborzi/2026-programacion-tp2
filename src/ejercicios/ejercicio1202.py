@@ -1,5 +1,5 @@
-""" Se solicita un numero entero al usuario, convirtiendo directamente el texto
-ingresado a tipo int. Luego se compara contra 10 e informa si es mayor o menor. """
+"""solicito un numero entero y lo comparo contra 10, si es mayor imprimo que es mayor que 10,
+en caso contrario imprimo que es menor o igual que 10."""
 
 numero_entero = int(input("Ingrese un numero entero: "))
 
