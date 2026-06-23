@@ -1,11 +1,7 @@
-"""Ejercicio 1201 - Operaciones matemáticas básicas
-Solicita el ingreso de dos números enteros e imprime el resultado de su
-suma, resta, multiplicación, división, resto de la división, división
-entera y el valor absoluto de cada uno. Si el segundo número es 0, no es
-posible calcular la división (ni el resto ni la división entera, que
-dependen de ella); en ese caso se informa el error como primera línea y
-luego, en lugar de cada resultado que dependía de la división, se aclara
-que no pudo calcularse, sin interrumpir el resto del programa. """
+"""solicito dos numeros enteros y calculo suma, resta, multiplicacion y valor absoluto de ambos
+que no dependen del segundo numero. si el segundo numero es cero informo el error al inicio
+y en lugar de division, resto y division entera imprimo que no pudieron calcularse. si el
+segundo numero es distinto de cero calculo e imprimo los tres resultados restantes."""
 
 primer_numero = int(input("Ingrese el primer numero entero: "))
 segundo_numero = int(input("Ingrese el segundo numero entero: "))
