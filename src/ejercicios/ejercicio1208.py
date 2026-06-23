@@ -1,6 +1,8 @@
-""" Calcular e imprimir la suma de los primeros 25 numero de la sucesion de Fibonacci,
-la sucesion comienza con los numeros 0 y 1, a partir de estos cada elemento es la suma de los
-dos numeros anteriores en la secuencia """
+"""inicialice los dos primeros numeros de fibonacci en 0 y 1 e imprimo ambos para obtener la salida solicitada en
+el enunciado.
+utilice un for de 23 vueltas porque los dos primeros ya estan impresos y la sucesion es de 25 numeros,
+en cada vuelta calculo el siguiente sumando los dos anteriores, actualizo primer_numero con el valor
+de segundo_numero y segundo_numero con la nueva suma, luego imprimo el resultado de cada vuelta."""
 
 primer_numero = 0
 segundo_numero = 1
