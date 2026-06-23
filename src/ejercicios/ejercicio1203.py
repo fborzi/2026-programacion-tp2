@@ -1,7 +1,5 @@
-""" Modifica el programa anterior para que ahora solicite el ingreso de dos numeros 
-enteros y luego informe si el primero es mayor o no que el segundo, usando el formato
-X es mayor que Y, sin ambos numeros son iguales deberia informar x igual a y"""
-
+"""solicito dos numeros enteros y los comparo, si el primero es mayor imprimo que X es mayor que Y,
+si es menor imprimo que X es menor que Y, y si son iguales imprimo que X es igual a Y."""
 numeroX = int(input("Ingrese un numero entero: "))
 numeroY = int(input("Ingrese un numero entero: "))
 
