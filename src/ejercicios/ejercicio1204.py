@@ -1,6 +1,5 @@
-"""Escribi un programa que solicite el ingreso de un numero entero, si el numero leido es 
-par, imprima la leyenda "el numero es par ". en caso contrario debera mostrar el texto El 
-numero es impar"""
+"""solicito un numero entero y calculo el resto de dividirlo por 2 almacenandolo en validacion.
+si validacion es cero el numero es par, en caso contrario es impar, e imprimo el resultado correspondiente."""
 
 numero_entero = int(input("ingrese un numero entero"))
 
