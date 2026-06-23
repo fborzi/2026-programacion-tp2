@@ -1,9 +1,9 @@
-"""Escribi un programa con el cual se procesaran las notas de un final de la materia. Para 
-esto, se solicitara el ingreso del numero de alumno y la 
-nota recibida, hasta que se ingrese un numero de alumno igual a cero, en cuyo caso se debera
-imprimir en pantalla la leyenda 'La cantidad de aprobados es: ' y la cantidad de aprobados
-junto con la leyenda 'La cantidad de desaprobados es: ' y la cantidad de desaprobados. 
-Se debera tener en cuenta que se aprueba con una nota mayor a 4."""
+"""inicialice numero_alumno en 1 para entrar al bucle y los contadores aprobados y desaprobados en cero.
+utilice un while que se repite mientras numero_alumno sea distinto de cero, pero como el ingreso del 
+numero de alumno ocurre dentro del bucle necesito verificar inmediatamente si es cero para no seguir
+pidiendo la nota, por eso utilice un break que corta el while en ese momento. si el numero es valido
+solicito la nota y la clasifico como aprobado si es mayor a 4 o desaprobado si es menor a 4.
+al finalizar imprimo la cantidad de aprobados y desaprobados."""
 
 numero_alumno = 1
 aprobados = 0
