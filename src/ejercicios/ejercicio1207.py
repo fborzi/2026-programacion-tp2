@@ -1,6 +1,8 @@
-""" Modificar el programa anterior para que si ingresa un numero negativo, no se sume pero 
-continue con el proceso. finalmente, mostrar por separado la suma de los numeros positivos 
-pares o impares imgresados """
+"""inicialice los acumuladores de pares e impares en cero. solicito la cantidad de numeros a procesar
+y utilice un while que se repite esa cantidad de veces decrementando numeros en cada vuelta.
+si el numero ingresado es positivo lo clasifico como par o impar usando el modulo 2 (es par si da 0) y lo sumo
+al acumulador correspondiente, si es negativo simplemente lo ignoro y continua el proceso.
+al finalizar imprimo por separado la suma de los positivos pares y la de los positivos impares."""
 
 
 numeros = int(input("Ingrese la cantidad de numeros procesar "))
@@ -16,6 +18,5 @@ while numeros != 0 :
             acumulador_impar = acumulador_impar + num_actual
     numeros = numeros - 1
 
-
-print(f"la suma total de los numeros ingresados: {acumulador_par}")
-print(f"la suma total de los numeros ingresados: {acumulador_impar}")
+print(f"la suma total de los numeros pares ingresados: {acumulador_par}")
+print(f"la suma total de los numeros impares ingresados: {acumulador_impar}")
