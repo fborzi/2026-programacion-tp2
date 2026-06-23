@@ -1,7 +1,6 @@
-"""Solicitar al usuario que ingrese el dia de la semana y la camtidad de articulos comprados 
-por un cliente en una tienda. Finalmente, imprimir "accede al descuento " si el dia es lunes
-y el cliente compro mas de tres articulos. en caso contrario no imprimir nada """
-
+"""solicito el dia de la semana convirtiendolo a minusculas para evitar problemas con mayusculas,
+y la cantidad de articulos comprados. si el dia es lunes y se compraron mas de tres articulos
+imprimo que el cliente accede al descuento, en caso contrario no imprimo nada."""
 dia_semana = input("Ingrese el dia de la semana ").lower() 
 articulos = int(input("Ingrese la cantidad de Articulos comprados "))
 
