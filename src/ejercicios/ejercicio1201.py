@@ -1,0 +1,13 @@
+
+
+a = int(input())
+b = int(input())
+
+print(f"La suma de los dos numeros es: {a + b}")
+print(f"La resta del primer numero menos el segundo es: {a - b}")
+print(f"La multiplicacion de los dos numeros es: {a * b}")
+print(f"La division del primer numero entre el segundo es: {a / b}")
+print(f"El resto de la division del primer numero entre el segundo es: {a % b}")
+print(f"La division entera del primer numero entre el segundo es: {a // b}")
+print(f"El valor absoluto del primer numero es: {abs(a)}")
+print(f"El valor absoluto del segundo numero es: {abs(b)}")
