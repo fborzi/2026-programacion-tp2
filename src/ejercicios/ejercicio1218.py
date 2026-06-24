@@ -1,4 +1,4 @@
-titulo = input("Ingrese el titulo del libro: ")
+titulo = input("Ingrese el titulo del libro: ").strip()
 
 resultado = ""
 
@@ -8,4 +8,4 @@ for i in range(len(titulo)):
     else:
         resultado += titulo[i].lower()
 
-print("Tu libro preferido es: ", resultado)
+print(resultado)
