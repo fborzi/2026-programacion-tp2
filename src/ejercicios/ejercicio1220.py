@@ -1,14 +1,14 @@
 frase = input("Ingrese una frase: ")
 corrimiento = int(input("Ingrese el corrimiento: "))
 
-abecedario = "abcdefghijklmnopqrstuvwxyz"
+ABECEDARIO = "abcdefghijklmnopqrstuvwxyz"
 resultado = ""
 
 for letra in frase:
-    if letra in abecedario:
-        posicion = abecedario.index(letra)
+    if letra in ABECEDARIO:
+        posicion = ABECEDARIO.index(letra)
         nueva_posicion = (posicion + corrimiento) % 26
-        resultado += abecedario[nueva_posicion]
+        resultado += ABECEDARIO[nueva_posicion]
     else:
         resultado += letra
 

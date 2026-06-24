@@ -13,7 +13,7 @@ while i < 20:
         i += 1
     
         if numero < 0:
-         suma_negativos += numero
+            suma_negativos += numero
         elif numero == 0:
             cantidad_ceros += 1
         else:
