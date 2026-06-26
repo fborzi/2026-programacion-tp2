@@ -1,7 +1,5 @@
-
-
-a = int(input())
-b = int(input())
+a = int(input("Escriba el primer numero: "))
+b = int(input("Escriba el segundo numero: "))
 
 print(f"La suma de los dos numeros es: {a + b}")
 print(f"La resta del primer numero menos el segundo es: {a - b}")
