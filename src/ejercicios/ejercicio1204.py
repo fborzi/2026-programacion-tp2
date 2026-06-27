@@ -2,6 +2,6 @@
 entero = int(input("Ingrese un número entero: "))
 
 if entero % 2 == 0:
-    print("El número es par.")
+    print("El número es PAR.")
 else:
-    print("El número es impar.")
+    print("El número es IMPAR.")
