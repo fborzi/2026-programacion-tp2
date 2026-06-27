@@ -9,5 +9,6 @@ for i in range(1,cantidad + 1):
     # es lo mismo que sum_total = sum_total + num
     
     # mostrar el resultado
-print(f"la suma total de los números es ingresados es : {suma_total}")
+print(f"la suma total de los números es ingresados es :{suma_total}")
+
     
