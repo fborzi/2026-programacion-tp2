@@ -25,6 +25,15 @@ division_entera = a // b
 absoluta_a = abs(a)
 absoluta_b = abs(b)
 
+if b != 0:
+    division = a / b
+    resto = a % b
+    division_entera = a // b
+else:
+    division = "No se puede dividir por cero"
+    resto = "No existe"
+    division_entera = "No existe"
+    
 print("La suma de los dos numeros es: ", suma)
 print("La resta del primer numero menos el segundo es : ", resta)
 print("La multiplicacion de los dos numeros es: ", multiplicacion)

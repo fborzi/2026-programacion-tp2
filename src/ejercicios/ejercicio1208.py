@@ -14,4 +14,5 @@ for i in range(25):
     a = b
     b = c
 
-print("Suma =", suma)
+while numero <= 46368:
+    print(numero)

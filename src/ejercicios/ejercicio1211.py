@@ -32,7 +32,7 @@ while contador < 20:
 if cantidad_positivos > 0:
     promedio = suma_positivos / cantidad_positivos
 else:
-    promedio = 0
+    promedio = suma / cantidad
 
 print("La cantidad de numero negativos es:", suma_negativos)
 print("La cantidad de ceros es:", cantidad_ceros)
