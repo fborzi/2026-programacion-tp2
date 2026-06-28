@@ -1,5 +1,4 @@
 "escribi un programa que lea 20 numeros enteros entre -10 y 10, y luego muestre la cantidad de numeros negativos, la cantidad de ceros y el promedio de los numeros positivos ingresados."
-
 negativos = 0
 igualcero = 0
 positivos = 0
@@ -9,7 +8,7 @@ contador = 0
 while contador < 20:
     valores = int(input(""))
     if valores < -10 or valores > 10:
-        print("Numero fuera de rango. Intente nuevamente.")
+        print("Numero fuera de rango. Intente nuevamente")
     elif valores < 0:
         negativos = negativos + valores
         contador += 1
