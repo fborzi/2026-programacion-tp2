@@ -1,11 +1,12 @@
 "escribi un programa que lea 20 numeros enteros entre -10 y 10, y luego muestre la cantidad de numeros negativos, la cantidad de ceros y el promedio de los numeros positivos ingresados."
 
-print("Ingrese 20 numeros enteros entre -10 y 10: ")
 negativos = 0
 igualcero = 0
 positivos = 0
 contadorpos = 0
 contador = 0
+
+print("Ingrese 20 numeros enteros entre -10 y 10: ")
 
 while contador < 20:
     valores = int(input(""))
