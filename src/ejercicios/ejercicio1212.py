@@ -5,7 +5,7 @@ import math
 primo = int(input("Ingrese un número: "))
 
 if primo < 2:
-    print("no es primo")
+    print(f"El numero {primo} NO es primo.")
 else:
     es_primo = True
     for i in range(2, int(math.sqrt(primo)) + 1):
@@ -14,6 +14,6 @@ else:
             break
 
     if es_primo:
-        print("es primo")
+        print(f"El numero {primo} es primo.")
     else:
-        print("no es primo")
+        print(f"El numero {primo} no es primo.")
