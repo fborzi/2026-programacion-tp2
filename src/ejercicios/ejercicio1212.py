@@ -3,12 +3,17 @@
 import math
 
 primo = int(input("Ingrese un número: "))
+
 if primo < 2:
-    print(f"{primo} no es un número primo.")
+    print("no es primo")
 else:
+    es_primo = True
     for i in range(2, int(math.sqrt(primo)) + 1):
         if primo % i == 0:
-            print(f"{primo} no es un número primo.")
+            es_primo = False
             break
+
+    if es_primo:
+        print("es primo")
     else:
-        print(f"{primo} es un número primo.")
+        print("no es primo")
