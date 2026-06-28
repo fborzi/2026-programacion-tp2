@@ -6,8 +6,6 @@ positivos = 0
 contadorpos = 0
 contador = 0
 
-print("Ingrese 20 numeros enteros entre -10 y 10: ")
-
 while contador < 20:
     valores = int(input(""))
     if valores < -10 or valores > 10:
