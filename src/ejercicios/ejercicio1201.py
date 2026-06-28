@@ -9,6 +9,9 @@ division = entero1 / entero2 if entero2 != 0 else None
 resto = entero1 % entero2 if entero2 != 0 else None
 division_entera = entero1 // entero2 if entero2 != 0 else None
 
+if entero2 == 0:
+    print("No se puede realizar la división porque el segundo número es cero.")
+
 print("La suma de los dos numero es: ", suma)
 print("La resta del primer numero menos el segundo es: ", resta)
 print("La multiplicación de los dos numero es: ", multiplicacion)
