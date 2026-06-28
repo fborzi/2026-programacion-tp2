@@ -4,11 +4,11 @@ cantidad=int(input("ingresa la cantidad de números enteros a procesar:"))
 suma-total = 0
 # bucle para pedir cada número y sumarlo
 for i in range(1,cantidad + 1):
-    num=int(input(f"ingresa el nímero{i}:"))
+    num=int(input(f"ingresa el número{i}:"))
     suma_total += num
     # es lo mismo que sum_total = sum_total + num
     
     # mostrar el resultado
-print(f"la suma total de los números es ingresados es :{suma_total}")
+print(f"la suma total de los números  ingresados es :{suma_total}")
 
     
