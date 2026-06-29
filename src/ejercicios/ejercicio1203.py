@@ -1,13 +1,13 @@
-x = input("Ingrese un numero entero:")
-y = input("Ingrese otro numero entero:")
+""" en este ejercicio se ingresan 2 numeros enteros y se comparan, mayor, menor o igual"""
+x = int(input("Ingrese un numero entero: "))
+y = int(input("Ingrese otro numero entero: "))
 
 if x > y:
-    print("X es mayor que Y")
+    print(x, "es mayor que", y)
 else:
     if x < y:
-        print("X es menor que Y")
+        print(x, "es menor que", y)
     else:
         if x == y:
-            print("X es igual a Y")
+            print(x, "es igual a", y)
             
-
