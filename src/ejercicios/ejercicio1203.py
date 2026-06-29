@@ -1,3 +1,8 @@
+"""
+El ejercicio 1203 
+
+"""
+
 x = int(input("Ingrese el primer numero:"))
 y = int(input("Ingrese el segundo numero:"))
 
