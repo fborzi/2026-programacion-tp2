@@ -3,3 +3,4 @@ los negativos, se sumen los iguales a 0 y el promedio de los valores positivos. 
 del rango dado se pedira el reeingreso"""
 suma = 0
 numeros = int(input("Ingrese numero entero entre el -10 y 10: "))
+mal

@@ -9,4 +9,4 @@ while monto != 0 :
     else:
         suma = suma + monto
         monto = float(input("Ingrese el monto de la venta: "))
-        print ("La suma total de las ventas es:", suma)
+print ("La suma total de las ventas es:", suma)
