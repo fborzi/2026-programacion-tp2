@@ -4,4 +4,4 @@ numero1 = int(input("Ingrese primer numero entero:"))
 if numero1 % 2 == 0:
     print("El numero ",numero1, " es par")
 else:
-    print("El numero ",numero1, " es impar") 
+    print("El numero ",numero1, " es impar")

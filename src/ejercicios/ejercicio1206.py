@@ -7,7 +7,6 @@ numero = 0
 cantidad_numeros = int(input("Ingrese cantidad de numeros enteros a ingresar:"))
 for i in range(cantidad_numeros):
     numero = int(input("Ingrese numero entero: "))
-    suma_numeros = suma_numeros + numero
-    
+    suma_numeros = suma_numeros + numero    
 print("La suma de los numeros es:", suma_numeros)
     

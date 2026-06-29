@@ -11,7 +11,6 @@ for i in range(cantidad_numeros):
             suma_numeros_pares = suma_numeros_pares + numero
         else:
             suma_numeros_impares = suma_numeros_impares + numero
-    
-print("La suma de los numeros par es:", suma_numeros_pares)   
+print("La suma de los numeros par es:", suma_numeros_pares)
 print("La suma de los numeros impar es:", suma_numeros_impares)
     
