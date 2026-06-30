@@ -1,0 +1,11 @@
+numero1 = int(input("Ingrese el primer número entero: "))
+numero2 = int(input("Ingrese el segundo número entero: "))
+
+print(f"La suma de los dos números es: {numero1 + numero2}")
+print(f"La resta del primer número menos el segundo es: {numero1 - numero2}")
+print(f"La multiplicación de los dos números es: {numero1 * numero2}")
+print(f"La división del primer número entre el segundo es: {numero1 / numero2}")
+print(f"El resto de la división del primer número entre el segundo es: {numero1 % numero2}")
+print(f"La división entera del primer número entre el segundo es: {numero1 // numero2}")
+print(f"El valor absoluto del primer número es: {abs(numero1)}")
+print(f"El valor absoluto del segundo número es: {abs(numero2)}")
