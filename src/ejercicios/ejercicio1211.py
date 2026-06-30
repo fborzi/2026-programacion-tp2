@@ -31,8 +31,7 @@ while i < 20:
 
     i += 1
 
-
-promedio_positivos = suma_positivos / cantidad_positivos
+promedio_positivos = suma_positivos / 20
 
 print("La cantidad de numeros negativos es:", suma_negativos)
 print("La cantidad de ceros es:", cantidad_ceros)
