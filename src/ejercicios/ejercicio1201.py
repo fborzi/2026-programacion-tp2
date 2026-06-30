@@ -13,7 +13,7 @@ suma = a + b
 resta = a - b
 multiplicacion = a * b
 
-if b !=0:
+if b != 0:
     division = a / b
     division_entera = a // b
     resto_division = a % b

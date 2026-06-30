@@ -12,4 +12,3 @@ while numero != 0:
             contador += 1
     numero = int(input("Ingrese un numero: "))
 print("Cantidad de numero primos ingresados:", contador)
-

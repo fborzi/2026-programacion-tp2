@@ -3,7 +3,7 @@ ceros y calcula el promedio de positivos"""
 suma_negativos = 0
 cantidad_ceros = 0
 suma_positivos = 0
-cantidad_positivos= 0
+cantidad_positivos = 0
 i = 0
 
 while i < 20:

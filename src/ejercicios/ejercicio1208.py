@@ -1,4 +1,4 @@
-"""Genera e imprime los primeros 25 numeros 
+"""Genera e imprime los primeros 25 numeros
 de la sucesion de Fibonacci"""
 a = 0
 b = 1
