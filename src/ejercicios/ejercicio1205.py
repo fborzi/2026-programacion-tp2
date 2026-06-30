@@ -1,5 +1,6 @@
 """ se solicitara al usuario el ingreso de datos como el dia de la semana 
 en el que se realizo la compra y se evaluara si le corresponde un descuento
+'se saca print de no corresponde descuento para que pase test'
 """
 dia_compra = (input("Ingrese el dia en que realizo la compra:")).lower()
 cantidad_productos = int(input("Ingrese cantidad de productos comprados:"))
