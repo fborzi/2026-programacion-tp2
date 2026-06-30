@@ -8,8 +8,8 @@ while numero != 0:
         for i in range(2, numero):
             if numero % i == 0:
                 es_primo = False
-        
         if es_primo:
             contador += 1
     numero = int(input("Ingrese un numero: "))
 print("Cantidad de numero primos ingresados:", contador)
+
