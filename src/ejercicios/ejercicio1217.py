@@ -2,7 +2,10 @@ resultado = ""
 
 car = input()
 
-while len(car) == 1 and car != "0":
+while True:
+    if len(car) != 1 or car == "0":
+        break
+
     resultado += car
     car = input()
 
