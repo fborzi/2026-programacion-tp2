@@ -11,7 +11,7 @@ if numero > 1 :
         else :
            esPrimo = True
     if esPrimo :
-        print("El numero", numero, "es primo")
+        print("El numero", numero, "Es primo")
     else :
         print("El numero", numero, "No es primo")
 else :
