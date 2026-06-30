@@ -4,9 +4,8 @@ frase = input("Ingrese una frase: ")
 caracter = input("Ingrese un carácter: ")
 frase_new = ""
 for letra in frase:
-
-    if letra == caracter:
-        frase_new = frase_new + "*"
+    if letra.lower() == caracter.lower():
+        frase_new += "*"
     else:
-        frase_new  = frase_new + letra
+        frase_new += letra
 print(frase_new)

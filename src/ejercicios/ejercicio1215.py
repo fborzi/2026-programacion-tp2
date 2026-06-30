@@ -6,25 +6,19 @@ e = False
 i = False
 o = False
 u = False
-print("Las vocales que aparecen en la cadena son: ")
 for letra in cadena:
-
-    if letra == "a" and a == False:
+    if letra == "a" and not a:
         print("a")
         a = True
-
-    elif letra == "e" and e == False:
+    elif letra == "e" and not e:
         print("e")
         e = True
-
-    elif letra == "i" and i == False:
+    elif letra == "i" and not i:
         print("i")
         i = True
-
-    elif letra == "o" and o == False:
+    elif letra == "o" and not o:
         print("o")
         o = True
-
-    elif letra == "u" and u == False:
+    elif letra == "u" and not u:
         print("u")
         u = True

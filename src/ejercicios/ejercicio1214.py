@@ -6,15 +6,22 @@ letras = 0
 palabra = ""
 for caracter in cadena:
     if caracter != " ":
-        palabra = palabra + caracter
-        letras = letras + 1
+        if palabra == "":
+            palabras += 1
+        palabra += caracter
+    else:
+        palabra = ""
+print("La cantidad de palabras es:", palabras)
+palabra = ""
+letras = 0
+for caracter in cadena:
+    if caracter != " ":
+        palabra += caracter
+        letras += 1
     else:
         if palabra != "":
-            palabras = palabras + 1
             print("La palabra", palabra, "tiene", letras, "letras.")
             palabra = ""
             letras = 0
 if palabra != "":
-    palabras = palabras + 1
     print("La palabra", palabra, "tiene", letras, "letras.")
-print("La cantidad de palabras es:", palabras)
