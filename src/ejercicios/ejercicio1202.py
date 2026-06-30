@@ -5,7 +5,7 @@ al usuario."""
 
 num = int(input("Ingrese un numero entero: "))
 
-MENSAJE = ""
+mensaje = ""
 
 if num > 10:
     print("El numero es mayor que 10.")
