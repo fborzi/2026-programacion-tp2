@@ -1,13 +1,16 @@
-num1 = int(input())
-num2 = int(input())
+a = int(input())
+b = int(input())
 
-print("la suma de los dos numeros es:", num1 + num2)
-print("la resta de los dos numeros es:", num1 - num2)
-print("la multiplicacion de los dos numeros es:", num1 * num2)
+print(a + b)
+print(a - b)
+print(a * b)
 
-if num2 != 0:
-    print("la division de los dos numeros es:", num1 / num2)
-    print("la division entera de los numeros es:", num1 // num2)
-    print("el resto de la division es:", num1 % num2)
+if b != 0:
+    print(a // b)
+    print(a % b)
 else:
-    print("no se puede dividir por cero")
+    print("No se puede dividir por cero")
+    print("No se puede calcular resto")
+
+print(abs(a))
+print(abs(b))
