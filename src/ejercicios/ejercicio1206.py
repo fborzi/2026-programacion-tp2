@@ -1,8 +1,8 @@
-cantidad = int(input("cantidad de numeros enteros a prosesar"))
-suma = 0
+cantidad = int(input("ingrese la cantidad de numeros enteros a prosesar: "))
+suma_total = 0
 
 for i in range(cantidad):
-    num = int(input())
-    suma = suma + num
+    numero = int(input(f"ingrese el numero {i+1}: "))
+    suma_total = suma_total + numero
     
-print("la suma de los numeros es: " + str(suma))
+print(f"la suma de los numeros es: {suma_total}")

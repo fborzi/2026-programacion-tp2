@@ -1,31 +1,25 @@
-"""suma de 2 numeros,pde 2 valores y muentra su suma"""
 
-num1 = int(input("ingrese el primer numero:"))
-num2 = int(input("ingrese el segundo numero:"))
-
-suma = 0
-resta = 0
-multplicacion = 0
-divison = 0
-resto = 0
-division_entera = 0
-valor_absoluto1 = 0
-valor_absoluto2 = 0
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
 
 suma = num1 + num2
 resta = num1 - num2
 multiplicacion = num1 * num2
 
-print("la resta de dos numeros es:", num1 - num2)
-print("la multiplicacion de dos numeros es:", num1 * num2)
+print(f"La suma es: {suma}")
+print(f"La resta es: {resta}")
+print(f"La multiplicacion es: {multiplicacion}")
 
 if num2 == 0:
-    print("la divison del primer numero entre el segundo es: cero no es divisible")
-    print("la division entera del primer numero entre el segundo numero es:cero no es divible")
+    print("No se puede dividir por cero")
+    print("No se puede dividir por cero")
+    print("No se puede dividir por cero")
 else:
-    print("la division del primer numero entre el segundo es:", num1/ num2)  
-    print("la division entera del primer numero entre el segundo es:", division_entera)
-    print("el resto de la disivion es:", num1 % num2)
-    
-print("el valor absoluto del primer numero es:", abs(num1))
-print("el valor absoluto del segundo numero es:", abs(num2))
+    division = num1 / num2
+    division_entera = num1 // num2
+    resto = num1 % num2
+    print(f"La division es: {division}")
+    print(f"La division entera es: {division_entera}")
+    print(f"El resto es: {resto}")
+
+print(f"El valor absoluto es: {abs(num1)}") 

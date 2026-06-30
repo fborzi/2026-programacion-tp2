@@ -1,7 +1,7 @@
 dia = input ("dia en el semana: ")
-semana = int(input("cantidad de dias: "))
+articulos = int(input("ingrese la cantidad de articulos comprados: "))
 
-if dia == "lunes" and semana > 3:
+if dia == "lunes" and articulos > 3:
     print("accede al descuento.")
 else:
     print("no accede al descuento.")

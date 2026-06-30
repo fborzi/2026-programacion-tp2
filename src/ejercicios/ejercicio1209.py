@@ -1,15 +1,18 @@
 aprobados = 0
 desaprobados = 0
 
-cant = int(input("cuantas notas vas a cargar: "))
-
-for i in range(cant):
-    nota = int(input("ingrese nota: "))
+while True:
+    numero_alumno = int(input())
+    
+    if numero_alumno == 0:
+        break
+    
+    nota = int(input())
     
     if nota > 4:
         aprobados = aprobados + 1
     else:
         desaprobados = desaprobados + 1
         
-print("aprobados:", aprobados)
-print("desaprobados:", desaprobados)        
+print("la cantidad de aprobados es: {aprobados}")
+print("la cantidad de desaprobados es: {desaprobados}")        
