@@ -14,4 +14,3 @@ while caracter != "0" and len(caracter) == 1:
     caracter = input("Ingrese un caracter: ")
 
 print(resultado)
-

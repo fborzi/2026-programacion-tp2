@@ -18,4 +18,3 @@ for letra in frase:
         resultado += letra
 
 print(resultado)
-

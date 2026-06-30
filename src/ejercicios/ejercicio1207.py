@@ -27,5 +27,3 @@ while contador < cantidad:
 
 print("Cantidad de numeros pares:", suma_pares)
 print("Cantidad de numeros impares:", suma_impares)
-
-
