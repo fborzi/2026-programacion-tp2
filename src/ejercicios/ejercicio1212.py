@@ -19,3 +19,4 @@ if es_primo:
     print(f"El numero {num} es PRIMO")
 else:
     print(f"El numero {num} NO es PRIMO")
+   
