@@ -8,13 +8,10 @@ en mayúscula y las demás en minúscula, independientemente de cómo lo haya in
 
 titulo = input("Ingrese el título de su libro preferido: ")
 
+titulo = titulo.strip()
 titulo = titulo.lower()
 
-palabras = titulo.split()
+resultado = titulo[0].upper() + titulo[1:]
 
-resultado = ""
+print(resultado)
 
-for palabra in palabras:
-    resultado += palabra[0].upper() + palabra[1:] + " "
-
-print (resultado)
