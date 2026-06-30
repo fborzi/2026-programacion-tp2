@@ -24,6 +24,6 @@ if numero2 != 0:
     division_entera = numero1 // numero2
     print("La division entera del primer numero entre el segundo es:", division_entera)
 else:
-    print("No se puede dividir por cero.")
+    print("No se puede realizar la division.")
 print("El valor absoluto del primer numero es:", abs(numero1))
 print("El valor absoluto del segundo numero es:", abs(numero2))
