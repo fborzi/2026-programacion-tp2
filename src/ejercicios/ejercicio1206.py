@@ -1,11 +1,9 @@
-suma = 0
+cantidad= int(input("Ingrese cantidad de numeros:"))
 
-nro1 =int(input("Ingrese numero:"))
-nro2= int(input("Ingrese numero:"))
-nro3 = int(input("Ingrese numero:"))
-nro4 = int(input("Ingrese numero:"))
-nro5 = int(input("Ingrese numero:"))
-nro6 = int(input("Ingrese numero:"))
+suma = 0 
 
-suma  = nro1 + nro2 + nro3 + nro4 + nro5 + nro6
+for i in range(cantidad):
+    num= int(input("Ingrese numero:"))
+    suma = suma+num
+
 print("La suma de los numeros es:", suma)
