@@ -8,9 +8,9 @@ num = int(input("Ingrese un numero entero: "))
 mensaje = ""
 
 if num > 10:
-    mensaje = "El numero ingresado es mayor que 10."
+    mensaje = "El numero es mayor que 10."
 else:
-    mensaje = "El numero ingresado no es mayor que 10."
+    mensaje = "El numero no es mayor que 10."
 
 print(mensaje)
 
