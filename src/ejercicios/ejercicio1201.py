@@ -1,4 +1,4 @@
-  num1 = int(input())
+ num1 = int(input())
 num2 = int(input())
 
 print("la suma de los dos numeros es :", num1 + num2)
