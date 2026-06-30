@@ -12,6 +12,6 @@ if x > y:
 elif x < y:
     mensaje = str(x) + " es menor que " + str(y) + "."
 else:
-    mensaje = str(x) + " es igual a " + str (y) + "."
+    mensaje = str(x) + " es igual a " + str(y) + "."
 
 print(mensaje)
