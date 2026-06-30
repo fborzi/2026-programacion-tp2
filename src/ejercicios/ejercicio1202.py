@@ -1,18 +1,6 @@
-import java.util.Scanner;
+numero = int(input())
 
-public class Main {
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        int numero = sc.nextInt();
-
-        if (numero > 10) {
-            System.out.println("El numero es mayor que 10");
-        } else {
-            System.out.println("El numero no es mayor que 10");
-        }
-
-        sc.close();
-    }
-}
+if numero > 10:
+    print("El numero es mayor que 10")
+else:
+    print("El numero no es mayor que 10")
