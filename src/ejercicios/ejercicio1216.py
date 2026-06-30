@@ -12,9 +12,10 @@ caracter = input("Ingrese un caracter: ")
 resultado = ""
 
 for letra in frase:
-    if letra == caracter:
+    if letra.lower() == caracter.lower():
         resultado += "*"
     else:
         resultado += letra
 
 print(resultado)
+
