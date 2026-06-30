@@ -17,9 +17,12 @@ for i in range(25):
         if numero > 0:
             cantidad_positivos = cantidad_positivos + 1
             suma_positivos = suma_positivos + numero
-            promedio = suma_positivos / cantidad_positivos
         if numero < 0:
-            suma_negativos = suma_negativos + numero        
+            suma_negativos = suma_negativos + numero
+if cantidad_positivos > 0:
+    promedio = suma_positivos / cantidad_positivos
+else:
+    promedio = 0    
 print("La sumatoria de los valores negativos es:",suma_negativos)
 print("La cantidad de ceros ingresados es:", cantidad_ceros)
 print("El promedio de los valores positivos ingresados es:", promedio)
