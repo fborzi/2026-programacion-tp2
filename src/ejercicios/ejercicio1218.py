@@ -1,12 +1,8 @@
-titulo = input()
+texto = input().strip().lower()
 
-# convertir todo a minúscula
-titulo = titulo.lower()
-
-# primera letra en mayúscula + resto igual
-resultado = titulo[0].upper()
-
-for i in range(1, len(titulo)):
-    resultado += titulo[i]
+if len(texto) > 0:
+    resultado = texto[0].upper() + texto[1:]
+else:
+    resultado = ""
 
 print(resultado)
