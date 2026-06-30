@@ -1,18 +1,9 @@
-cantidad = int(input())
+contador = 0
 
-pares = 0
-impares = 0
+n = int(input())
 
-for _ in range(cantidad):
-    numero = int(input())
+while n != -1:
+    contador += 1
+    n = int(input())
 
-    if numero < 0:
-        continue
-
-    if numero % 2 == 0:
-        pares += 1
-    else:
-        impares += 1
-
-print("cantidad de numeros pares:", pares)
-print("cantidad de numeros impares:", impares)
+print("cantidad de numeros ingresados:", contador)
