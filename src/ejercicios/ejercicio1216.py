@@ -1,10 +1,10 @@
-frase = input()
+texto = input()
 car = input()
 
 resultado = ""
 
-for c in frase:
-    if c == car:
+for c in texto:
+    if c.lower() == car.lower():
         resultado += "*"
     else:
         resultado += c
