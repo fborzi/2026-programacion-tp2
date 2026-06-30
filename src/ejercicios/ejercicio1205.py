@@ -7,6 +7,7 @@ if dia_compra == "lunes" or dia_compra == "martes" or dia_compra == "miercoles" 
     if dia_compra == "lunes" and cantidad_productos > 3:
         print("Accede al descuento")
     else:
-        print("No le corresponde un descuento")
+        print("")
 else:
     print("El parametro ingresado no corresponde a un dia de la semana")
+    
