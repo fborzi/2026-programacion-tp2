@@ -15,3 +15,4 @@ if es_primo:
 else:
     print("El numero", numero, "no es PRIMO.")
     
+    
