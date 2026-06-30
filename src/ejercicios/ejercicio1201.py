@@ -1,0 +1,11 @@
+num1 = int(input())
+num2 = int(input())
+
+print("la suma de los dos numeros es :", num1 + num2)
+print("la resta del primer numero menos el segundo es:", num1 - num2)
+print("la multiplicacion de los dos numeros es :", num1 * num2)
+print("la division del primer numero entre el segundo es :", num1 / num2)
+print("el resto de la division del primer numero entre el segundo es :", num1 % num2)
+print("la division entera del primer numero entre el segundo es :", num1 // num2)
+print("el valor absoluto del primer numero es :", abs(num1))
+print("el valor absoluto del segundo numero es :", abs(num2))
