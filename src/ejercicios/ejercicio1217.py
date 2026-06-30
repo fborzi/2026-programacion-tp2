@@ -12,5 +12,5 @@ acumulador_string = ""
 while len(caracter) == 1 and caracter != "0":
     acumulador_string = acumulador_string + caracter
     caracter = input("ingrese un caracter: ")
-    
+
 print(acumulador_string)

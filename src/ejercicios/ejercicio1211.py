@@ -10,19 +10,19 @@ suma_positivos = 0
 suma_negativos = 0
 total = 0
 
-for i in range(20) :
+for i in range(20):
     numeros_enteros = int(input("ingrese numero entero"))
-    if numeros_enteros >= -10 and numeros_enteros <= 10 :
-        if numeros_enteros < 0 :
+    if numeros_enteros >= -10 and numeros_enteros <= 10:
+        if numeros_enteros < 0:
             suma_negativos = suma_negativos + numeros_enteros
-        elif numeros_enteros == 0 :
+        elif numeros_enteros == 0:
             cantidad_cero = cantidad_cero + 1
-        else :
-            numeros_enteros > 0 
+        else:
+            numeros_enteros > 0
             suma_positivos = suma_positivos + numeros_enteros
             total = total + 1
             promedio = suma_positivos / total
-    else :
+    else:
         print("Numero fuera de rango intente nuevamente")
 
 print(f"La cantidad de numeros negativos es: {suma_negativos}")

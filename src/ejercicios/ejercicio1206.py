@@ -9,5 +9,4 @@ acumulador = 0
 while numeros != 0 :
     acumulador = acumulador + int(input("Ingrese los numeros uno a uno "))
     numeros = numeros - 1
-
 print(f"la suma total de los numeros ingresados: {acumulador}")

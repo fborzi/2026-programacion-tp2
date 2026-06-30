@@ -10,7 +10,7 @@ Si el caracter no es una letra lo acumulo sin modificar.
 Al finalizar imprimo el texto encriptado."""
 
 texto = input("Ingresa el texto a encriptar: ").lower()
-cantidad_lugares = int(input("Ingrese la cantidad de lugares que correran las letras "))
+cantidad_lugares = int(input("Ingrese la cantidad de lugares que correran las letras: "))
 abecedario = "abcdefghijklmñnopqrstuvwxyz"
 nueva_letra = ""
 nueva_posicion = 0

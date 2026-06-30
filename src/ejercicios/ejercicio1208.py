@@ -10,9 +10,8 @@ segundo_numero = 1
 print(primer_numero)
 print(segundo_numero)
 
-for i in range(23) :
+for i in range(23):
     suma = primer_numero + segundo_numero
     primer_numero = segundo_numero
     segundo_numero = suma
     print(suma)
-    

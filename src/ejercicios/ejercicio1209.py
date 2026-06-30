@@ -9,16 +9,16 @@ numero_alumno = 1
 aprobados = 0
 desaprobados = 0
 
-while numero_alumno != 0 :
-    numero_alumno = int(input("ingrese su numero de alumno "))
-    if numero_alumno == 0 :
+while numero_alumno != 0:
+    numero_alumno = int(input("ingrese su numero de alumno: "))
+    if numero_alumno == 0:
        break 
-    else :
-        nota_recibida = int(input("Ingrese la nota recibida "))
-        if nota_recibida > 4 :
+    else:
+        nota_recibida = int(input("Ingrese la nota recibida: "))
+        if nota_recibida > 4:
             aprobados = aprobados + 1
-        if nota_recibida < 4 :
+        if nota_recibida < 4:
             desaprobados = desaprobados + 1
-    
-print(f'La cantidad de aprobados es: {aprobados} ')
-print(f'La cantidad de desaprobados es: {desaprobados} ')
+
+print(f'La cantidad de aprobados es: {aprobados}')
+print(f'La cantidad de desaprobados es: {desaprobados}')

@@ -20,4 +20,3 @@ while numero != 0:
             primo = primo + 1
 
 print(f"Cantidad de numeros primos ingresados: {primo}")
-       

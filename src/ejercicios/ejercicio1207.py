@@ -9,10 +9,10 @@ numeros = int(input("Ingrese la cantidad de numeros procesar "))
 acumulador_par = 0
 acumulador_impar = 0
 
-while numeros != 0 :
+while numeros != 0:
     num_actual = int(input("Ingrese los numeros uno a uno "))
     if num_actual > 0 :
-        if (num_actual % 2 ) == 0 :
+        if (num_actual % 2 ) == 0:
             acumulador_par = acumulador_par + num_actual
         else : 
             acumulador_impar = acumulador_impar + num_actual

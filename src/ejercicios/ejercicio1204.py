@@ -5,8 +5,8 @@ numero_entero = int(input("ingrese un numero entero"))
 
 validacion = (numero_entero % 2)
 
-if validacion == 0 :
-   print("el numero es par") 
+if validacion == 0:
+   print("el numero es par.") 
 else :
-   print("El numero es impar")
+   print("El numero es impar.")
    

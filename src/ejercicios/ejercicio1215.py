@@ -13,5 +13,5 @@ vocales_encontradas = ""
 for letra in cadena:
     if letra in VOCALES and letra not in vocales_encontradas:
         vocales_encontradas = vocales_encontradas + letra
-        
-print(f"Las vocales que aparecen en la cadena son: {vocales_encontradas} ")
+
+print(f"Las vocales que aparecen en la cadena son: {vocales_encontradas}")
