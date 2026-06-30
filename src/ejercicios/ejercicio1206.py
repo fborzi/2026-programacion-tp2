@@ -5,4 +5,4 @@ numeros = int(input("Ingrese la cantidad de numeros: "))
 for i in range(numeros):
     numero = int(input("Ingrese un numero: "))
     suma = suma + numero
-print ("La suma de los numeros es:", suma)
+print("La suma de los numeros es:", suma)
