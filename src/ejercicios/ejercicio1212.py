@@ -14,4 +14,3 @@ if es_primo:
     print("El numero", numero, "es PRIMO.")
 else:
     print("El numero", numero, "no es PRIMO.")
-    
