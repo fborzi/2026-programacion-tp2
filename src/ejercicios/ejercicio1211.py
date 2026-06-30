@@ -21,9 +21,9 @@ while contador < 20:
         cant_positivos += 1
     contador += 1
 if cant_positivos > 0:
-    promedio = suma_positivos / 20
+    PROMEDIO = suma_positivos / 20
 else:
-    promedio = 0
+    PROMEDIO = 0
 print("La cantidad de numeros negativos es:", suma_negativos)
 print("La cantidad de ceros es:", cant_ceros)
-print("El promedio de los numeros positivos ingresados es:", promedio)
+print("El promedio de los numeros positivos ingresados es:", PROMEDIO)
