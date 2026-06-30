@@ -6,4 +6,4 @@ titulo = titulo.strip().lower()
 
 resultado = titulo[0].upper() + titulo[1:]
 
-print("Tu libro preferido es " + resultado)
+print(resultado)

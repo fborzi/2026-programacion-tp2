@@ -6,4 +6,4 @@ while char != "0" and len(char) == 1:
     resultado += char
     char = input("")
 
-print("El string formado es: " + resultado)
+print(resultado)
