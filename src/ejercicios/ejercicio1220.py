@@ -24,5 +24,3 @@ for letra in texto:
         resultado += letra
 
 print(resultado)
-
-
