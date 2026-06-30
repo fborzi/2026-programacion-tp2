@@ -12,9 +12,6 @@ multiplicacion = primer_numero * segundo_numero
 valor_absoluto_primero = abs(primer_numero)
 valor_absoluto_segundo = abs(segundo_numero)
 
-if segundo_numero == 0:
-    print("No es posible calcular la division porque el segundo numero es cero")
-
 print(f"La suma de los dos numeros es: {suma}")
 print(f"La resta del primer numero menos el segundo es: {resta}")
 print(f"La multiplicacion de los dos numeros es: {multiplicacion}")
