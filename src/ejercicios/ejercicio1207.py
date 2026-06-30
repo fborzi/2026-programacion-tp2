@@ -1,3 +1,4 @@
+"""Ignora numeros negativos y suma pares e impares por separado"""
 cantidad = int(input("Ingrese la cantidad de numeros a procesar: "))
 suma_pares = 0
 suma_impares = 0

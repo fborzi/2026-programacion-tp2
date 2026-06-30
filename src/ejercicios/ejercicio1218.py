@@ -1,3 +1,4 @@
+"""Convierte un titulo al formato correcto de escritura"""
 titulo = input("Ingrese el titulo del libro: ").strip()
 
 resultado = ""

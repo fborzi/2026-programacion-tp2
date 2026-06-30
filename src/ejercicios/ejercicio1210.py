@@ -1,3 +1,4 @@
+"""Suma los montos de venta e informa cuando se ingresa un valor negativo"""
 monto = float(input("Ingrese el monto de la venta: "))
 
 suma_ventas = 0

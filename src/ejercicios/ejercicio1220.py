@@ -1,3 +1,5 @@
+"""Aplica el cifrado Cesar a un texto utilizando
+un corrimiento indicado"""
 frase = input("Ingrese una frase: ")
 corrimiento = int(input("Ingrese el corrimiento: "))
 

@@ -1,3 +1,5 @@
+"""Compara dos numeros e indica cual es
+mayor, menor o si son iguales"""
 x = int(input("Ingrese un numero: "))
 y = int(input("Ingrese un numero: "))
 

@@ -1,3 +1,4 @@
+"""Identifica las vocales presentes en un texto"""
 cadena = input("Ingrese una cadena: ").lower()
 
 vocales = ""

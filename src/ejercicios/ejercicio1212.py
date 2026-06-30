@@ -1,3 +1,4 @@
+"""Verifica si un numero es primo"""
 numero = int(input("Ingrese un numero: "))
 
 es_primo = True

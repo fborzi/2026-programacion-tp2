@@ -1,3 +1,5 @@
+"""Cuenta las palabras de una frase e informa la 
+longitud de cada una"""
 cadena = input("Ingrese una frase: ")
 cantidad_palabras = 0
 palabra = ""

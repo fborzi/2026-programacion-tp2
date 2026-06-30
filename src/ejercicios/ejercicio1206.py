@@ -1,3 +1,4 @@
+"""Suma una cantidad determinada de numeros ingresados"""
 cantidad = int(input("Ingrese la cantidad de numeros: "))
 
 suma = 0

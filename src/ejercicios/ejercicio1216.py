@@ -1,3 +1,4 @@
+"""Reemplaza un caracter especifico por asteriscos en una cadena"""
 frase = input("Ingrese una frase: ")
 caracter = input("Ingrese un caracter: ")
 

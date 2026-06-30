@@ -1,3 +1,4 @@
+"""Cuenta la cantidad de alumnos aprobados y desaprobados"""
 numero_alumno = int(input("Ingrese numero de alumno:"))
 
 aprobados = 0

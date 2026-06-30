@@ -1,3 +1,5 @@
+"""Forma un texto a partir de caracteres ingresados
+hasta un caracter de fin"""
 texto = ""
 
 caracter = input("Ingrese un caracter:")

@@ -1,3 +1,5 @@
+"""Determina si un numero es mayor,
+menor o igual a 10"""
 numero = int(input("Ingrese un numero: "))
 
 if numero > 10:
@@ -6,4 +8,3 @@ elif numero < 10:
     print("El numero es menor que 10")
 else:
     print("El numero es igual a 10.")
-    

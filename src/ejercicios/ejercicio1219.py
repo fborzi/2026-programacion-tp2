@@ -1,3 +1,4 @@
+"""Muestra cada palabra de una frase en una linea diferente"""
 frase = input("Ingrese una frase: ")
 
 palabra = ""

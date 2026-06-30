@@ -1,3 +1,4 @@
+"""Cuenta la cantidad de numeros primos ingresados"""
 contador = 0
 numero = int(input("Ingrese un numero: "))
 while numero != 0:
