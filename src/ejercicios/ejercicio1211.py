@@ -19,7 +19,7 @@ for i in range(25):
         if numero < 0:
             suma_negativos = suma_negativos + numero
     else:
-        print("numero fuera de rango")
+        print("Numero fuera de rango. Intente nuevamente.")
         
 print("La sumatoria de los valores negativos es:",suma_negativos)
 print("La cantidad de ceros ingresados es:", cantidad_ceros)
