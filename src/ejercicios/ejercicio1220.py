@@ -16,15 +16,13 @@ for letra in texto:
 
     if letra in ALFABETO:
 
-        for i in range(len(ALFABETO)):
-            if ALFABETO[i] == letra:
-                indice = i
-
+        indice = ALFABETO.index(letra)
         nuevo_indice = (indice + corrimiento) % len(ALFABETO)
-
         resultado += ALFABETO[nuevo_indice]
 
     else:
         resultado += letra
 
 print(resultado)
+
+
