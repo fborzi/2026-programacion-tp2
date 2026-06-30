@@ -18,6 +18,8 @@ if numero2 != 0:
     division = numero1 / numero2
     resto = numero1 % numero2
     division_entera = numero1 // numero2
+else:
+    print("No es posible division por cero")
 print("la suma de los numeros es:", suma)
 print("la resta del primer numero con respecto al segundo es:", resta)
 print("la multiplicacion de los numeros es:", multiplicacion)
