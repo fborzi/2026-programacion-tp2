@@ -1,9 +1,18 @@
-contador = 0
-
 n = int(input())
 
+positivos = 0
+negativos = 0
+ceros = 0
+
 while n != -1:
-    contador += 1
+    if n > 0:
+        positivos += 1
+    elif n < 0:
+        negativos += 1
+    else:
+        ceros += 1
     n = int(input())
 
-print("cantidad de numeros ingresados:", contador)
+print(positivos)
+print(negativos)
+print(ceros)
