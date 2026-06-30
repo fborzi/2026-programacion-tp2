@@ -7,3 +7,4 @@ elif x < y:
     print(x, "es menor que", y)
 elif x == y:
     print(x, "es igual a", y)
+    

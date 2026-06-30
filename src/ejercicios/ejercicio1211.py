@@ -20,7 +20,6 @@ while i < 20:
             suma_positivos += numero
             cantidad_positivos += 1
     
-
 promedio = suma_positivos / 20
 print("La suma de los numeros negativos es:", suma_negativos)
 print("La cantidad de ceros es:", cantidad_ceros)

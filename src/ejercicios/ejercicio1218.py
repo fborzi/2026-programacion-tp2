@@ -2,10 +2,10 @@ titulo = input("Ingrese el titulo del libro: ").strip()
 
 resultado = ""
 
-for i in range(len(titulo)):
+for i, letra in enumerate(titulo):
     if i == 0:
-        resultado += titulo[i].upper()
+        resultado += letra.upper()
     else:
-        resultado += titulo[i].lower()
+        resultado += letra.lower()
 
 print(resultado)

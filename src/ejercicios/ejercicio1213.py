@@ -1,7 +1,5 @@
 contador = 0
-
 numero = int(input("Ingrese un numero: "))
-
 while numero != 0:
     if numero > 1:
         es_primo = True
