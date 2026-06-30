@@ -1,8 +1,6 @@
 "escribi un programa que permita al usuario ingresar una serie de números y determine cuántos de ellos son primos. El programa debe continuar solicitando números hasta que el usuario ingrese 0, luego imprimir el total"
 
 import math
-print("Ingrese cualquier número o 0 para finalizar: ")
-
 contador = 0
 numeros = int(input(""))
 

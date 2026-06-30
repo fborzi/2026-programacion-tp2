@@ -1,7 +1,7 @@
 "escribi un programa que pide al usuario una frase y un caracter, y luego reemplaza todas las apariciones de ese caracter en la frase con un asterisco (*). El programa quita las mayúsculas y minúsculas."
 
-frase = input("frase: ")
-caracter = input("caracter: ")
+frase = input("")
+caracter = input("")
 
 resultado = ""
 
@@ -11,4 +11,4 @@ for char in frase:
     else:
         resultado += char
 
-print(f"La frase modificada es: {resultado}")
+print("La frase modificada es: " + resultado)
