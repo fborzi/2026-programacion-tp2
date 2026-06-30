@@ -12,4 +12,4 @@ mensaje = ""
 if dia == "lunes" and articulos > 3:
     mensaje = "accede al descuento"
 
-print (mensaje)
+print(mensaje)

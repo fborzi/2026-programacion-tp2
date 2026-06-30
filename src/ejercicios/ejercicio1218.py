@@ -14,4 +14,3 @@ titulo = titulo.lower()
 resultado = titulo[0].upper() + titulo[1:]
 
 print(resultado)
-

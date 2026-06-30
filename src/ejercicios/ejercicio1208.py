@@ -13,4 +13,3 @@ for i in range(25):
     siguiente = a + b
     a = b
     b = siguiente
-

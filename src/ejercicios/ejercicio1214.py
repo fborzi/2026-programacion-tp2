@@ -19,7 +19,6 @@ for c in texto:
             lista_palabras.append((palabra_actual, len(palabra_actual)))
             palabra_actual = ""
 
-# última palabra
 if palabra_actual != "":
     cantidad_palabras += 1
     lista_palabras.append((palabra_actual, len(palabra_actual)))

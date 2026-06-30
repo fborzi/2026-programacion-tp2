@@ -2,18 +2,17 @@
 y luego recorre cada letra para identificar cuáles son vocales (a, e, i, o, u),
 sin distinguir entre mayúsculas y minúsculas.
 Las vocales encontradas se almacenan sin repetirse y finalmente se muestran
-en pantalla separadas por un espacio.
-"""
+en pantalla separadas por un espacio."""
 
 cadena = input("Ingrese una cadena: ")
 
-vocales = "aeiou"
+VOCALES = "aeiou"
 resultado = ""
 
 for letra in cadena:
     letra = letra.lower()
 
-    if letra in vocales:
+    if letra in VOCALES:
         if letra not in resultado:
             resultado += letra
 

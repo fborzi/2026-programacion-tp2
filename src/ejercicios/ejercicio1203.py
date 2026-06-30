@@ -14,4 +14,4 @@ elif x < y:
 else:
     mensaje = str(x) + " es igual a " + str (y) + "."
 
-print (mensaje)
+print(mensaje)

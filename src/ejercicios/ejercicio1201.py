@@ -3,8 +3,8 @@ distintas operaciones entre ellos, como la suma, la resta, la multiplicación,
 la división, el resto de la división, la división entera y el valor absoluto
 de cada número, mostrando luego los resultados obtenidos en pantalla."""
 
-a= int(input("Ingrese el primer numero: "))
-b= int(input("Ingrese el segundo numero: "))
+a = int(input("Ingrese el primer numero: "))
+b = int(input("Ingrese el segundo numero: "))
 
 suma = 0
 resta = 0
@@ -26,11 +26,11 @@ if b != 0:
 else:
     print("No se puede dividir por cero")
 
-print ("La suma de los dos numeros es:", suma)
-print ("La resta del primer numero menos el segundo es:", resta)
-print ("la multiplicacion de los dos numeros es:", multiplicacion)
-print ("La divison del primer numero entre el segundo es:", division) 
-print ("El resto de la division del primer numero entre el segundo es:", resto)
-print ("La division entera del primer numero entre el segundo es:", division_entera)
-print ("El valor absoluto del primer numero es:", valor_absoluto_a)
-print ("El valor absoluto del segundo numero es:", valor_absoluto_b)
+print("La suma de los dos numeros es:", suma)
+print("La resta del primer numero menos el segundo es:", resta)
+print("la multiplicacion de los dos numeros es:", multiplicacion)
+print("La divison del primer numero entre el segundo es:", division)
+print("El resto de la division del primer numero entre el segundo es:", resto)
+print("La division entera del primer numero entre el segundo es:", division_entera)
+print("El valor absoluto del primer numero es:", valor_absoluto_a)
+print("El valor absoluto del segundo numero es:", valor_absoluto_b)

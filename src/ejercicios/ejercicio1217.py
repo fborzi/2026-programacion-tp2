@@ -13,5 +13,5 @@ while caracter != "0" and len(caracter) == 1:
     resultado += caracter
     caracter = input("Ingrese un caracter: ")
 
-print (resultado)
+print(resultado)
 
