@@ -13,4 +13,4 @@ else:
     print("no se puede dividir por cero")
 
 print("el valor absoluto del primer numero es :", abs(num1))
-print("el valor absoluto del segundo numero es :", abs(num2))                                                                       decime q parte arreglo
+print("el valor absoluto del segundo numero es :", abs(num2))                                                                       
