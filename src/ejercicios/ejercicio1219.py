@@ -12,6 +12,5 @@ for char in frase:
             print(palabra_actual)
             palabra_actual = ""
 
-# Imprimir la última palabra
 if palabra_actual != "":
     print(palabra_actual)

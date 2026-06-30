@@ -18,4 +18,4 @@ for char in texto:
     else:
         resultado += char
 
-print("El texto cifrado es: " + resultado)
+print("El texto cifrado es " + resultado)
