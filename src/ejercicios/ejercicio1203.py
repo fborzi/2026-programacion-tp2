@@ -9,4 +9,3 @@ else:
     else:
         if x == y:
             print(x, "es igual a", y)
-            

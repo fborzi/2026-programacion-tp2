@@ -4,4 +4,4 @@ dia = input("Ingrese el dia de la semana:")
 articulos = int(input("Ingrese la cantidad de articulos comprados:"))
 if dia == "lunes" and articulos >= 3:
     print("Accede al descuento.")
-    
+  

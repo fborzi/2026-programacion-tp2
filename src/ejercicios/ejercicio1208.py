@@ -6,4 +6,3 @@ for i in range(25):
     siguiente = numero1 + numero2
     numero1 = numero2
     numero2 = siguiente
-    

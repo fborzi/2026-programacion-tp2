@@ -4,4 +4,3 @@ if numero % 2 == 0:
     print("El numero", numero, "es PAR.")
 else:
     print("El numero", numero, "es IMPAR.")
-    
