@@ -1,30 +1,25 @@
 negativos = 0
 ceros = 0
 positivos = 0
-suma_negativos = 0
-suma_positivos = 0
+suma_pos = 0
 
-contador = 0
+for _ in range(10):
+    n = int(input())
 
-while contador < 10:
-    num = int(input())
-
-    if num < -10 or num > 10:
+    while n < -10 or n > 10:
         print("numero fuera de rango. intente nuevamente")
+        n = int(input())
+
+    if n < 0:
+        negativos += 1
+    elif n == 0:
+        ceros += 1
     else:
-        contador += 1
+        positivos += 1
+        suma_pos += n
 
-        if num < 0:
-            suma_negativos += num
-            negativos += 1
-        elif num == 0:
-            ceros += 1
-        else:
-            suma_positivos += num
-            positivos += 1
+promedio = suma_pos / positivos if positivos > 0 else 0
 
-promedio = suma_positivos / positivos if positivos != 0 else 0
-
-print("la cantidad de numeros negativos es:", suma_negativos)
+print("la cantidad de numeros negativos es:", negativos)
 print("la cantidad de ceros es:", ceros)
 print("el promedio de los numeros positivos ingresados es:", promedio)
