@@ -1,4 +1,4 @@
- num1 = int(input())
+num1 = int(input())
 num2 = int(input())
 
 print("la suma de los dos numeros es :", num1 + num2)
@@ -13,4 +13,4 @@ else:
     print("No se puede dividir por cero")
 
 print("el valor absoluto del primer numero es :", abs(num1))
-print("el valor absoluto del segundo numero es :", abs(num2))                                                                  
+print("el valor absoluto del segundo numero es :", abs(num2))
