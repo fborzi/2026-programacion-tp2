@@ -16,6 +16,6 @@ while monto != 0:
 
     suma_ventas += monto
     monto = int(input())
-        
+
 print("El monto ingresado es negativo.")
 print("La suma total de las ventas es: ", suma_ventas)

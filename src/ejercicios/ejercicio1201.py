@@ -22,7 +22,7 @@ if b != 0:
     division = a / b
     resto = a % b
     division_entera = a // b
-    
+
 else:
     print("No se puede dividir por cero")
 
