@@ -9,4 +9,3 @@ for i in range(cantidad_numeros):
     numero = int(input("Ingrese numero entero: "))
     suma_numeros = suma_numeros + numero    
 print("La suma de los numeros es:", suma_numeros)
-    
