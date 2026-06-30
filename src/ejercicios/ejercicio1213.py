@@ -1,4 +1,5 @@
-"escribi un programa que permita al usuario ingresar una serie de números y determine cuántos de ellos son primos. El programa debe continuar solicitando números hasta que el usuario ingrese 0, luego imprimir el total"
+# escribi un programa que ingresa una serie de números y determine cuántos de ellos son primos.
+# El programa debe continuar solicitando números hasta que el usuario ingrese 0, luego imprimir el total"
 
 import math
 contador = 0

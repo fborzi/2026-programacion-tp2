@@ -1,4 +1,5 @@
-"escribi un programa que permita ingresar el monto de las ventas de un comercio, el programa debe ir sumando las ventas ingresadas y al finalizar debe mostrar la suma total de las ventas."
+# escribi un programa que permita ingresar el monto de las ventas de un comercio,
+# el programa va sumando las ventas ingresadas y al finalizar muestra la suma total de las ventas.
 ventas = float(input("Ingrese el monto de la venta o ingrese 0 para finalizar: "))
 contador = 0
 

@@ -1,4 +1,4 @@
-"escribi un programa que recibe una frase y la imprime palabra por palabra, cada una en una línea diferente."
+# escribi un programa que recibe una frase y la imprime palabra por palabra, cada una en una línea diferente.
 
 frase = input("")
 

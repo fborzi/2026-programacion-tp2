@@ -1,4 +1,4 @@
-"escribi un programa que pide al usuario una cadena de texto y luego muestra las vocales que aparecen en ella, sin repetirlas."
+# escribi un programa que pide al usuario una cadena de texto y luego muestra las vocales que aparecen en ella, sin repetirlas.
 
 print("")
 cadena = input("")

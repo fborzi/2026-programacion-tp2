@@ -1,4 +1,6 @@
-"Escribi un programa que solicite al usuario dos números enteros y luego imprima la suma, resta, multiplicación, división, resto de la división, división entera y valor absoluto de ambos números."
+# Escribi un programa que solicite al usuario dos números enteros y luego imprima la suma, resta, multiplicación, división,
+# resto de la división, división entera y valor absoluto de ambos números.
+
 entero1 = int(input("Ingrese el primer número entero: "))
 entero2 = int(input("Ingrese el segundo número entero: "))
 

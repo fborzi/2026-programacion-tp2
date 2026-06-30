@@ -1,4 +1,6 @@
-"escribir un programa que solicite al usuario el número de un alumno y su nota, luego pida el número y la nota de otro alumno y así sucesivamente hasta que se ingrese el número 0. Finalmente, el programa debe mostrar la cantidad de alumnos aprobados y desaprobados."
+# Escribi un programa que solicita el número de un alumno y su nota,
+# luego pidd el número y la nota de otro alumno y así sucesivamente hasta que
+# se ingrese el número 0. Finalmente, el programa debe mostrar la cantidad de alumnos aprobados y desaprobados."
 
 numero = 0
 nota = 0

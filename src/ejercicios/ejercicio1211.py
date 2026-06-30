@@ -1,4 +1,6 @@
-"escribi un programa que lea 20 numeros enteros entre -10 y 10, y luego muestre la cantidad de numeros negativos, la cantidad de ceros y el promedio de los numeros positivos ingresados."
+# escribi un programa que lee 20 numeros enteros entre -10 y 10, y luego
+# muestra la cantidad de numeros negativos, la cantidad de ceros y
+# el promedio de los numeros positivos ingresados."
 negativos = 0
 igualcero = 0
 positivos = 0

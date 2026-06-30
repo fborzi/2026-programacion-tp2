@@ -1,4 +1,6 @@
-"escribi un programa que pide al usuario una frase y un caracter, y luego reemplaza todas las apariciones de ese caracter en la frase con un asterisco (*). El programa quita las mayúsculas y minúsculas."
+# escribi un programa que pide al usuario una frase y un caracter, y luego
+# reemplaza todas las apariciones de ese caracter en la frase con un asterisco (*).
+# El programa quita las mayúsculas y minúsculas.
 
 frase = input("")
 caracter = input("")

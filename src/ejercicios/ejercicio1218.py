@@ -1,4 +1,5 @@
-"escribi un programa que pide al usuario el título de su libro preferido y lo muestre con la primera letra en mayúscula y el resto en minúscula."
+# escribi un programa que pide al usuario el título de su libro preferido y
+# lo muestre con la primera letra en mayúscula y el resto en minúscula.
 
 titulo = input("")
 

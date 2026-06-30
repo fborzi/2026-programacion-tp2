@@ -1,4 +1,5 @@
-"escribir un programa que solicite al usuario una cantidad de valores a ingresar, luego pida esos valores y finalmente muestre la suma de los números pares y la suma de los números impares ingresados."
+# escribi un programa que solicita al usuario una cantidad de valores a ingresar,
+# luego pide esos valores y muestra la suma de los números pares y la suma de los números impares ingresados.
 cant = int(input("Ingrese la cantidad de valores que desea ingresar y luego ingrese los valores: "))
 
 contadorpar = 0

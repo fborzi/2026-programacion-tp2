@@ -1,4 +1,6 @@
-"escribi un programa que recibe un texto, un entero y aplica un cifrado de sustitución simple al texto. Se desplaza cada letra por el número de posiciones indicado por el entero, manteniendo el caso de las letras y dejando los caracteres no alfabéticos sin cambios."
+# escribi un programa que recibe un texto, un entero y aplica un cifrado de sustitución simple al texto.
+# Se desplaza cada letra por el número de posiciones indicado por el entero,
+# manteniendo el caso de las letras y dejando los caracteres no alfabéticos sin cambios.
 
 ALFABETO = "abcdefghijklmnñopqrstuvwxyz"
 

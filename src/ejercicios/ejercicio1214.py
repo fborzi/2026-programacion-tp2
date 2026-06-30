@@ -1,4 +1,5 @@
-"escribi un programa que pide al usuario que ingrese una cadena de texto y luego cuente la cantidad de palabras en la cadena. El programa tambien imprime cada palabra junto con su longitud."
+# escribi un programa que pide al usuario que ingrese una cadena de texto y luego
+# cuente la cantidad de palabras en la cadena. El programa tambien imprime cada palabra junto con su longitud.
 
 cadena = input("")
 palabras = []
