@@ -1,4 +1,5 @@
-""" en este ejercicio pediremos el ingreso de una cadena de caracteres, buscaremos y mostraremos las vocales utilizadas"""
+""" en este ejercicio pediremos el ingreso de una cadena de caracteres, buscaremos y mostraremos las
+vocales utilizadas"""
 
 Vocales = ""
 cadena = input("ingrese cadena de caracteres: ").lower()

@@ -1,6 +1,6 @@
-"""En este ejercico pediremos el ingreso de 20 numeros que esten entre -10 y 10 de los cuales informaremos si son datos 
-esperados la suma de los numeros negativos, el promedio de los datos positivos y la cantidad de 0 que se ingresaron, por lo 
-contrario se informara 'valor fuera de rango' """
+"""En este ejercico pediremos el ingreso de 20 numeros que esten entre -10 y 10 de los cuales informaremos
+si son datos esperados la suma de los numeros negativos, el promedio de los datos positivos y la cantidad
+de 0 que se ingresaron, por lo contrario se informara 'valor fuera de rango' """
 numero = 0
 cantidad_ceros = 0
 cantidad_positivos = 0

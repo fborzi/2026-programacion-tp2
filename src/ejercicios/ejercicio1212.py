@@ -1,4 +1,5 @@
-"""En este ejercicio pediremos al usuario ingresar un nymero mayor a 1 y le retornaremos si el mismo es primo o no
+"""En este ejercicio pediremos al usuario ingresar un nymero mayor a 1 y le retornaremos si el mismo es
+primo o no
 """
 numero = 0
 numero = int(input("ingrese numero mayor a 1: "))
