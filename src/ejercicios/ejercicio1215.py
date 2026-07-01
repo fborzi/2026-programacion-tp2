@@ -1,16 +1,16 @@
 """ en este ejercicio pediremos el ingreso de una cadena de caracteres, buscaremos y mostraremos las
 vocales utilizadas"""
 
-Vocal_Snake = ""
+vocales_cadena = ""
 cadena = input("ingrese cadena de caracteres: ").lower()
 if cadena.count("a") > 0:
-    Vocal_Snake += "a "
+    vocales_cadena += "a "
 if cadena.count("e") > 0:
-    Vocal_Snake += "e "
+    vocales_cadena += "e "
 if cadena.count("i") > 0:
-    Vocal_Snake += "i "
+    vocales_cadena += "i "
 if cadena.count("o") > 0:
-    Vocal_Snake += "o "
+    vocales_cadena += "o "
 if cadena.count("u") > 0:
-    Vocal_Snake += "u "
-print("las vocales utilizadas en la cadena son:",Vocal_Snake)
+    vocales_cadena += "u "
+print("las vocales utilizadas en la cadena son:",vocales_cadena)
