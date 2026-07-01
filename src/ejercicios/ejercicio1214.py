@@ -6,14 +6,19 @@ letras = 0
 palabra = ""
 for caracter in cadena:
     if caracter != " ":
-        palabra = palabra + caracter
         letras = letras + 1
     elif letras > 0:
             cantidad_palabras = cantidad_palabras + 1
+            letras = 0
+
+print("La cantidad de palabras en la cadena es:", cantidad_palabras + 1)
+for caracter in cadena:
+    if caracter != " ":
+        palabra = palabra + caracter
+        letras = letras + 1
+    elif letras > 0:
             print("La palabra", '"' + palabra + '"', "tiene", letras, "letras.")
             palabra = ""
             letras = 0
 if letras > 0:
-    cantidad_palabras = cantidad_palabras + 1
     print("La palabra", '"' + palabra + '"', "tiene", letras, "letras.")
-print("La cantidad de palabras en la cadena es:", cantidad_palabras)
