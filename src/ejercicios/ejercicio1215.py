@@ -12,4 +12,4 @@ if cadena.count("o") > 0:
     vocales_cadena += "o "
 if cadena.count("u") > 0:
     vocales_cadena += "u "
-print("las vocales utilizadas en la cadena son:",vocales_cadena)
+print("las vocales utilizadas en la cadena son:", vocales_cadena)

@@ -7,6 +7,7 @@ cantidad_positivos = 0
 suma_positivos = 0
 suma_negativos = 0
 promedio = 0
+cantidad_validos = 0
 for i in range(23):
     numero = int(input("ingrese numero entero entre -10 y 10: "))
     if numero > 10 or numero < -10:
@@ -14,13 +15,16 @@ for i in range(23):
     else:
         if numero == 0:
             cantidad_ceros = cantidad_ceros + 1
+            cantidad_validos += 1
         if numero > 0:
             cantidad_positivos = cantidad_positivos + 1
+            cantidad_validos += 1
             suma_positivos = suma_positivos + numero
         if numero < 0:
             suma_negativos = suma_negativos + numero
+            cantidad_validos += 1
 if cantidad_positivos > 0:
-    promedio = suma_positivos / cantidad_positivos
+    promedio = suma_positivos / cantidad_validos
 else:
     promedio = 0
 print("La sumatoria de los valores negativos es:",suma_negativos)
