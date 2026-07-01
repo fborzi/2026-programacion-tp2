@@ -27,6 +27,6 @@ if cantidad_positivos > 0:
     promedio = suma_positivos / cantidad_validos
 else:
     promedio = 0
-print("La sumatoria de los valores negativos es:",suma_negativos)
+print("La sumatoria de los valores negativos es:", suma_negativos)
 print("La cantidad de ceros ingresados es:", cantidad_ceros)
 print("El promedio de los valores positivos ingresados es:", promedio)

@@ -12,4 +12,4 @@ while numero != 0:
     if es_primo is True:
         cantidad_primos = cantidad_primos + 1
     numero = int(input("ingrese numero mayor a 1: "))
-print("Cantidad de numeros primos ingresados:",cantidad_primos)
+print("Cantidad de numeros primos ingresados:", cantidad_primos)
