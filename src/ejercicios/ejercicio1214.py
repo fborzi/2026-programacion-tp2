@@ -18,8 +18,8 @@ for caracter in cadena:
         palabra = palabra + caracter
         letra = letra + 1
     elif letra > 0:
-            print("La palabra", '"' + palabra + '"', "tiene", letra, "letras.")
-            palabra = ""
-            letra = 0
+        print("La palabra", '"' + palabra + '"', "tiene", letra, "letras.")
+        palabra = ""
+        letra = 0
 if letra > 0:
     print("La palabra", '"' + palabra + '"', "tiene", letra, "letras.")
