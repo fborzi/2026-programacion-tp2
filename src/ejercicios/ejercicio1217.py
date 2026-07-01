@@ -1,9 +1,10 @@
 frase = ""
+caracter = input("Ingresa un caracter:")
 
-while True:
-    caracter = input("Ingrese un caracter: ")
-    
-    if caracter == "0" or len(caracter) != 1:
-        break
+while len(caracter) == 1 and caracter != "0":
     frase = frase + caracter
-print(frase)
+    caracter = input("Ingresa un caracter:")
+if frase != "" :
+    print(frase)
+else :
+    print("No se ingreso ningun caracter valido")
