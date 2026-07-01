@@ -9,8 +9,7 @@ while numero != 0:
         if numero % i == 0:
             es_primo = False
             break
-    if es_primo == True:
+    if es_primo is True:
         cantidad_primos = cantidad_primos + 1
     numero = int(input("ingrese numero mayor a 1: "))
 print("Cantidad de numeros primos ingresados:",cantidad_primos)
-

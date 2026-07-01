@@ -11,4 +11,3 @@ if dia_compra in ('lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado',
         print("")
 else:
     print("El parametro ingresado no corresponde a un dia de la semana")
-    
