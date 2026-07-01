@@ -13,6 +13,6 @@ else:
             break
 
 if es_primo:
-    print(f"El numero {numero} es PRIMO.")
+    print(f"El numero {numero} es primo.")
 else:
-    print(f"El numero {numero} es COMPUESTO.")
+    print(f"El numero {numero} no es primo.")

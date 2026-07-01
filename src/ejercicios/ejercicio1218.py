@@ -1,7 +1,7 @@
 """
 Pone en mayúscula solo la primera letra y el resto en minúscula, sin capitalize().
 """
-titulo = input("Ingrese el titulo su libro preferido: ")
+titulo = input("Ingrese el titulo su libro preferido: ").strip()
 
 resultado = ""
 for i, c in enumerate(titulo):
@@ -10,4 +10,4 @@ for i, c in enumerate(titulo):
     else:
         resultado += c.lower()
 
-print(f"Tu libro preferido es: {resultado}")
+print(resultado)

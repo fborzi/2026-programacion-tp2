@@ -5,7 +5,7 @@ dejando intactos los caracteres que no son letras.
 frase = input("Ingrese frase:")
 corrimiento = int(input("Ingrese el corrimiento:"))
 
-alfabeto = "abcdefghijklmnopqrstuvwxyz"
+alfabeto = "abcdefghijklmnñopqrstuvwxyz"
 
 resultado = ""
 for c in frase:

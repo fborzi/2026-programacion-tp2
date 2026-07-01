@@ -6,5 +6,3 @@ cantidad = int(input("Ingrese la cantidad de productos que compró:"))
 
 if dia.lower() == "lunes" and cantidad > 3:
     print("Accede al descuento.")
-else:
-    print("No accede al descuento.")

@@ -1,8 +1,8 @@
 """
 Arma un nuevo string reemplazando manualmente coincidencias por "" (sin replace()).*
 """
-frase = input("Ingrese frase:")
-caracter = input("Ingrese caracter a reemplazar por *:")
+frase = input("Ingrese frase:").lower()
+caracter = input("Ingrese caracter a reemplazar por *:").lower()
 
 resultado = ""
 for c in frase:
