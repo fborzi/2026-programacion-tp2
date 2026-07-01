@@ -1,6 +1,6 @@
 alumnos=int(input("Ingrese cantidad de alumnos:"))
 
-aproados = 0
+aprobados = 0
 desaprobados = 0 
 
 while alumnos != 0:
