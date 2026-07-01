@@ -1,4 +1,4 @@
-""" En este ejercicio vamos a pedirle al usuario ingresar la cantidad de numeros 
+""" En este ejercicio vamos a pedirle al usuario ingresar la cantidad de numeros
 enteros que desea ingresar, luego se le solicitara el ingreso de cada uno de los
 numeros enteros, se sumaran todos los ingresados"""
 cantidad_numeros = 0

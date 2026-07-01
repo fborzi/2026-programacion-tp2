@@ -1,4 +1,4 @@
-""" en este ejercicio pediremos el ingreso de numeros enteros mayores a 1 y corroboraremos si se trata de 
+""" en este ejercicio pediremos el ingreso de numeros enteros mayores a 1 y corroboraremos si se trata de
 nuemros primos o no primos, mostraremos la cantidad de numeros primos ingresados"""
 cantidad_primos = 0
 es_primo = False

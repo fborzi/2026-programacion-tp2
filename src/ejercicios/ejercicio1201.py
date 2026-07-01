@@ -1,6 +1,6 @@
 """en este ejercicio se pide al usuario ingresar dos numeros enteros, luego
 se trabajara sobre los mismos, se sacara la suma, resta, multiplicscion, division
-con  resto y division entera. una vez realizadas las operaciones imprimiremos los resultados 
+con  resto y division entera. una vez realizadas las operaciones imprimiremos los resultados
 de cada una de las operaciones realizadas.
 """
 suma = 0

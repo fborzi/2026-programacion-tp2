@@ -1,6 +1,5 @@
 """ en este ejercicio pediremos el ingreso de una cadena de caracteres, buscaremos y mostraremos las
 vocales utilizadas"""
-
 vocales_cadena = ""
 cadena = input("ingrese cadena de caracteres: ").lower()
 if cadena.count("a") > 0:
