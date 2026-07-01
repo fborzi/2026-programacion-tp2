@@ -1,3 +1,7 @@
+"""
+Ejercicio 1215, el usuario ingresa una cadena y el sistema leindica las vocales qe se encuentran en la cadena, para 
+eso utilice una estructura repetitiva y dentro de ella una estructura condicional para identificar las vocales.
+"""
 cadena = input("Ingrese una cadena:")
 
 vocales = ""
