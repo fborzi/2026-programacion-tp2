@@ -13,8 +13,8 @@ for caracter in cadena:
     else:
         if contador_letra > 0:
            contador_palabra = contador_palabra + 1
-           print("la palabra '", palabra, "' tiene", contador_letra, "letra.")
+           print(f"la palabra '{palabra}' tiene {contador_letra} letra.")
            contador_letra = 0
            palabra = ""
         
-print("la cantidad de palabra en la cadena es:", contador_palabra)
+print(f"la cantidad de palabra en la cadena es: {contador_palabra}")

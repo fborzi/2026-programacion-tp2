@@ -1,13 +1,12 @@
-total = 0
+total = 0.0
 
-cant = int(input("cuantas veces vas a cargar: "))
-
-for i in range(cant):
-    monto = float(input("monto de la venta: "))
-    
+monto = float(input())
+while monto != 0:
     if monto < 0:
         print("el monto ingresado es negativo.")
     else:
         total = total + monto
         
-print("la suma total de las ventas es:",total)            
+    monto = float(input())
+        
+print(f"la suma total de las ventas es: {total}")        

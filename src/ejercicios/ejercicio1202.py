@@ -1,7 +1,9 @@
-num = int( input("ingrese un numero: "))
+numero = int(input("ingrese un numero: "or""))
  
-if num > 10:
-    print("el numero es mayor que 10.")
+if numero == 10:
+    print("el numero ingresado es igual a 10.")
+elif numero > 10:
+    print("el numero ingresado es mayor a 10")
 else:
-    print("el numero no es mayor que 10.")    
+    print("el numero ingresado es menor a 10")    
     

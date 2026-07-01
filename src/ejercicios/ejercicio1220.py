@@ -1,17 +1,16 @@
-texto = input("ingrese el texto a encriptar: ").lower()
-corrimiento = int(input("ingrese la cantidad de lugares: "))
+abecedario = "abcdefghijklmnñopqrstuvwxyz"
 
-abecedario = "acbdefghijklmnñopqrstuvwxyz"
-texto_encriptado = ""
+texto = input() 
+corrimiento = int(input())
+
+texto_cifrado = ""
 
 for letra in texto:
-    
-    if letra not in abecedario:
-        texto_encriptado = texto_encriptado
+    if letra in abecedario:
+        indice = abecedario.index(letra)
+        nuevo_indice = (indice + corrimiento)
+        texto_cifrado = texto_cifrado + abecedario[nuevo_indice]
     else:
-        indice = abecedario.find(letra)
-        nuevo_indice = (indice + corrimiento) % 27
-        letra_nueva = abecedario[nuevo_indice]
-        texto_encriptado = texto_encriptado +letra_nueva
-        
-print(texto_encriptado)
+        texto_cifrado = texto_cifrado + letra
+
+print(texto_cifrado)
