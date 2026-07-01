@@ -1,5 +1,5 @@
+"""Compara un numero con 10."""
 numero = int(input("Escriba un numero:"))
-
 if numero > 10:
     print("El numero es mayor que 10.")
 elif numero == 10:

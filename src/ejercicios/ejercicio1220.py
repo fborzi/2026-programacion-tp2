@@ -1,19 +1,16 @@
-"""
-Corre cada letra según el alfabeto español de 27 letras (con ñ) usando (índice + corrimiento) % 27,
-dejando intactos los caracteres que no son letras.
-"""
+"""Corre cada letra segun el alfabeto espanol de 27 letras (con ene), dejando intactos los demas caracteres."""
 frase = input("Ingrese frase:")
 corrimiento = int(input("Ingrese el corrimiento:"))
 
-alfabeto = "abcdefghijklmnñopqrstuvwxyz"
+ALFABETO = "abcdefghijklmn\u00f1opqrstuvwxyz"
 
 resultado = ""
 for c in frase:
-    if c.lower() in alfabeto:
+    if c.lower() in ALFABETO:
         es_mayuscula = c.isupper()
-        indice = alfabeto.index(c.lower())
+        indice = ALFABETO.index(c.lower())
         nuevo_indice = (indice + corrimiento) % 27
-        nueva_letra = alfabeto[nuevo_indice]
+        nueva_letra = ALFABETO[nuevo_indice]
         if es_mayuscula:
             nueva_letra = nueva_letra.upper()
         resultado += nueva_letra

@@ -1,6 +1,4 @@
-"""
-Busca vocales sin repetir (sin usar listas), respetando el orden de aparición.
-"""
+"""Busca vocales sin repetir (sin usar listas), respetando el orden de aparicion."""
 cadena = input("Ingrese una cadena de caracteres:")
 vocales_encontradas = ""
 
@@ -12,8 +10,8 @@ if vocales_encontradas == "":
     print("La cadena no contiene vocales.")
 else:
     resultado = ""
-    for i in range(len(vocales_encontradas)):
+    for i, vocal in enumerate(vocales_encontradas):
         if i > 0:
             resultado += " "
-        resultado += vocales_encontradas[i]
+        resultado += vocal
     print(f"Las vocales que aparecen en la cadena son: {resultado}")
