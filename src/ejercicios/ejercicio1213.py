@@ -1,3 +1,4 @@
+"""Este programa cuenta la cantidad de números primos ingresados."""
 contador_primos = 0
 
 for i in range(1000):

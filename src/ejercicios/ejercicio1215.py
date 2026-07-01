@@ -1,3 +1,4 @@
+"""Este programa identifica las vocales presentes en una cadena de texto."""
 cadena = input("ingrese  una cadena caracteres: ")
 
 cadena = cadena.lower()

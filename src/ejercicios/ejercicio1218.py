@@ -1,3 +1,4 @@
+"""Este programa formatea un título con la primera letra en mayúscula y el resto en minúscula."""
 titulo = input("ingrese el titulo de su libro preferido: ")
 
 titulo_miniscula = titulo.lower()

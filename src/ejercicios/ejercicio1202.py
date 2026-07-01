@@ -1,3 +1,4 @@
+"""esta programa compara un numero con el ingresado con el valor 10"""
 numero = int(input("ingrese un numero: "or""))
  
 if numero == 10:

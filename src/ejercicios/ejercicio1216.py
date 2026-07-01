@@ -1,3 +1,4 @@
+"""Este programa reemplaza un carácter elegido por el usuario dentro de una frase."""
 frase = input("ingrese una frase: ")
 caracter = input("ingrese un caracter de longitud 1: ")
 

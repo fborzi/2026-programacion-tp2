@@ -1,3 +1,4 @@
+"""este programa calcula el total de las ventas de la semana."""
 total = 0.0
 
 monto = float(input())

@@ -1,3 +1,4 @@
+"""este programa dice si un numero es PAR o es IMPAR"""
 num = int(input("ingreso de numero entero: "))
 
 if num % 2 == 0:

@@ -1,3 +1,4 @@
+"""Este programa imprime cada palabra de una frase en una línea diferente."""
 frase = input("ingrese una frase: ")
 
 palabra_actual = ""

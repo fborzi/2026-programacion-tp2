@@ -1,3 +1,4 @@
+"""este programa genera e imprime los primeros 25 números de la sucesión de Fibonacci."""
 numero = 25
 a = 0
 b = 1

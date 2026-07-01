@@ -1,3 +1,4 @@
+"""este programa compara dos numeros enteros enteros e indica cual es mayor, menos o si son iguales"""
 x = int(input("es mayor: "))
 y = int(input("es menor: "))
 

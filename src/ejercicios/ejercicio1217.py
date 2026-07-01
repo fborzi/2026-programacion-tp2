@@ -1,3 +1,4 @@
+"""Este programa forma una cadena con los caracteres ingresados por el usuario."""
 string_completo = ""
 
 while True:

@@ -1,3 +1,4 @@
+"""Suma de positivos pares e impares este programa suma por separado los números positivos pares e impares"""
 suma_pares = 0
 suma_impares = 0
 

@@ -1,3 +1,4 @@
+"""Rango de números este programa procesa números dentro de un rango y muestra los resultados obtenidos."""
 suma_negativos = 0
 cantidad_ceros = 0
 suma_positivos = 0

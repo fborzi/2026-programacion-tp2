@@ -1,3 +1,4 @@
+"""este programa suma una cantidad de números ingresados por el usuario."""
 cantidad = int(input("ingrese la cantidad de numeros enteros a prosesar: "))
 suma_total = 0
 

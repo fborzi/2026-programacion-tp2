@@ -1,3 +1,4 @@
+"""este programa verifica si un cliente accede a un descuento"""
 dia = input ("ingrese el dia de la semana: ")
 articulos = int(input("ingrese la cantidad de articulos comprados: "))
 

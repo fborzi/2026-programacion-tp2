@@ -1,3 +1,4 @@
+"""Este programa verifica si un número es primo o no"""
 numero = int(input("ingrese un numero mayor que 1: "))
 
 es_primo = True

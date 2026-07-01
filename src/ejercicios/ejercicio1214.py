@@ -1,3 +1,4 @@
+"""Este programa analiza una cadena de texto e informa sus palabras y caracteres."""
 cadena = input("ingrese una cadena de texto: ")
 
 contador_palabra = 0

@@ -1,3 +1,4 @@
+"""este programa procesa las notas de los alumnos e informa aprobados y desaprobados."""
 aprobados = 0
 desaprobados = 0
 

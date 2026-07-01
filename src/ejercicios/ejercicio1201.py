@@ -1,3 +1,4 @@
+"""lee 2 numeros y muestra su suma"""
 num1 = int(input())
 num2 = int(input())
 
