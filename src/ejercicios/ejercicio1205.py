@@ -4,7 +4,7 @@ en el que se realizo la compra y se evaluara si le corresponde un descuento
 """
 dia_compra = (input("Ingrese el dia en que realizo la compra:")).lower()
 cantidad_productos = int(input("Ingrese cantidad de productos comprados:"))
-if dia_compra == "lunes" or dia_compra == "martes" or dia_compra == "miercoles" or dia_compra == "jueves" or dia_compra == "viernes" or dia_compra == "sabado" or dia_compra == "domingo":
+if dia_compra in ('lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'):
     if dia_compra == "lunes" and cantidad_productos > 3:
         print("Accede al descuento")
     else:
